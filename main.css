@@ -1,0 +1,142 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 13px;
+    padding-left: 13px;  
+    
+     
+    
+
+}
+li{
+    float: right;   
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #000;
+    opacity: 0.75;
+    cursor: pointer;
+    padding: 8px
+    
+   
+}
+.top-nav-bar{
+    position: top;
+    width: 100%;
+
+}
+#l-list{
+    float: left;
+    
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    background-image: none;
+      
+         
+}
+
+
+#profile{
+    -moz-border-radius: 50%;    
+    border-radius: 50%; 
+    margin: -1px;   
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+        
+}
+
+.front {
+
+    text-align: center;    
+    margin-top: 89px;
+    height: 233px;
+    display: block;
+    
+    
+}
+
+
+#logo{
+    width: 384px;
+    height: 216px; 
+        
+    
+}
+li:hover{
+    text-decoration: underline;
+}
+.text-input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+
+}
+
+.text-input{
+    text-align: center;         
+    border: 1px solid #dfe1e5;
+    width: 584px;   
+    height: 46px;    
+    margin: 0 auto;
+    border-radius: 24px;
+    
+     
+}
+
+
+.search{
+    width: 554px;
+    height: 34px;
+    background-color: transparent;
+    border: none;    
+    font-family: arial,sans-serif;
+    font-size: 16px;    
+    line-height: 34px;         
+    margin-top: 5px;
+    
+}
+
+.button{
+    text-align: center; 
+    padding-top: 18px;
+    
+}
+.search-button{
+    padding: 0px 16px;
+    width: 129px;
+    height: 36px;
+    line-height: 27px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    outline: none;
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    color: #5F6368;
+    
+    
+    
+}
+#lucky{
+    width: 145px;
+    height: 36px;
+    
+}
+
+.bottom-nav-bar{
+    bottom:0px;
+    position: fixed;
+    width:100%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;;
+       
+    position: absolute;
+    
+    
+}
